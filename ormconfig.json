@@ -1,0 +1,19 @@
+{
+  "type": "postgres",
+  "host": "121.37.27.77",
+  "port": 9432,
+  "username": "edingsun",
+  "password": "Pass@word",
+  "database": "nestjs",
+  "entities": [
+    "**/*.entity{.ts,.js}"
+  ],
+  "migrationsTableName": "migration",
+  "migrations": [
+    "src/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "ssl": false
+}
